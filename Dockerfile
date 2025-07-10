@@ -32,8 +32,6 @@ RUN apt-get update  && \
     apt-get install -y \
     vim \
     iputils-ping \
-    ros-${ROS_DISTRO}-gazebo-ros-pkgs \
-    ros-${ROS_DISTRO}-xacro \
     python3-rosdep \
     python3-colcon-core \
     python3-colcon-common-extensions \
