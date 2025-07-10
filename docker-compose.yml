@@ -1,0 +1,13 @@
+services:
+  pnrr_project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+    network_mode: host
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev:/dev
+    environment:
+      - DISPLAY=$DISPLAY  # needed to show results on screen
+      - XAUTHORITY=$XAUTHORITY  # needed to show results on screen

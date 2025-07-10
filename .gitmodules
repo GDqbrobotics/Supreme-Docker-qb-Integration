@@ -1,0 +1,4 @@
+[submodule "src/qb_integration"]
+	path = src/qb_integration
+	url = https://GiulianoDami@bitbucket.org/qbrobotics/qb-integration-ros-internal.git 
+	branch = develop-humble
