@@ -1,6 +1,6 @@
 
 FROM ros:humble
-
+RUN curl -fsSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ENV HOME=/home/blah
 ENV ROS2_WORKSPACE=workspace
 ARG ROS_DISTRO=humble
